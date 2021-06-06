@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box{
+            border: burlywood 10px solid;
+            border-radius: 10px;
+            background-color: white;
+            width: 500px;
+            height: 250px;
+            position: absolute;
+            top: 230px;
+            left: 500px;
+            z-index: 2;
+        }
+
+        .text{
+            z-index: 4;
+            font-size: 22px;
+            font-weight: bold;
+           
+        }
+        .email{
+            position: absolute;
+            top: 300px;
+            left: 650px;
+        }
+        .npw{
+            position: absolute;
+            top: 330px;
+            left: 570px;
+        }
+        .cnpw{
+            position: absolute;
+            top: 360px;
+            left: 530px;
+        }
+
+       .link{
+           z-index: 5;
+           background-color: red;
+           width: 200px;
+           text-align: center;
+           border-radius: 10px;
+            position: absolute;
+            top: 440px;
+            left: 670px;
+
+       }
+
+       .Username{
+            position: absolute;
+            top: 270px;
+            left: 610px;
+       }
+        a{
+            text-decoration: none;
+            color:white;
+           
+            font-size: 22px;
+            
+        }
+    </style>
+</head>
+<body>
+    <img src="img1.jpg" style="width: 1536px; height:725px ; z-index: 1;">
+   <p class="box"> </p>
+   <p class="text Username">Username : <input type="text" style="width: 250px;"></p>
+   <p class="text email">Email : <input type="text" style="width: 250px;"></p>
+   <p class="text npw">New Password : <input type="password" style="width: 250px;"></p>
+   <p class="text cnpw">Re-enter Password : <input type="password" style="width: 250px;"></p>
+
+   <p ><a href="suconfirm.html" class="link"> Sign Up</a></p>
+</body>
+</html>
